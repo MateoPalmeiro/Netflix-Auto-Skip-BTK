@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Netflix Auto Skip BTK V1.12
-// @namespace    https://github.com/MateoPalmeiro
+// @namespace    https://github.com/MateoPalmeiro/Netflix-Auto-Skip-BTK
 // @version      1.12
 // @description  Auto-skip Netflix recaps, intros, credits, and auto-advance to next episode.
 // @match        http*://*.netflix.com/*
@@ -11,7 +11,7 @@
     'use strict';
 
     // Beware fellow one: modify these selectors at your own risk — you're about to embark on a warp-speed dive through Netflix’s fractal DOM corridors.
-    // Netflix skip button hooks—extracted from their minified chaos of React props and data attributes
+    // Netflix skip button hooks — extracted from their minified chaos of React props and data attributes
     const selectors = [
         // seamless next-episode buttons (draining vs standard)
         "[data-uia='next-episode-seamless-button']",
@@ -23,7 +23,7 @@
     ];
 
     // Polling loop: every 300ms scan the DOM for any skip/next prompts
-    // Faster polling just burns cycles; slower risks leaving intros unskipped
+    // Faster polling just burns cycles; slower risks leaving intros unskipped, found myself the sweet spot
     setInterval(() => {
         for (const sel of selectors) {
             const btn = document.querySelector(sel);
@@ -35,6 +35,6 @@
                 return;
             }
         }
-    }, 300); // tweak at your own peril—Netflix DOM updates are a moving target
+    }, 300); // tweak at your own risk — Netflix DOM updates are a moving target
 
 })();
