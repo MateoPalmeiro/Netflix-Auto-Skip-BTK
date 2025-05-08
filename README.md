@@ -51,12 +51,12 @@ setInterval(() => {
 ## Installation
 
 1. Install a UserScript manager of your choice:
-
    * [Violentmonkey](https://violentmonkey.github.io/)
    * [Tampermonkey](https://www.tampermonkey.net/)
    * [Greasemonkey](https://www.greasespot.net/)
-2. Create a new script in your manager and paste the contents of `Netflix Auto Skip BTK V1.12`.
-3. Save and reload any Netflix tab (`http*://*.netflix.com/*`).
+2. Install directly from GreasyFork: [Netflix Auto Skip BTK v1.12](https://greasyfork.org/es/scripts/535353-netflix-auto-skip-btk-v1-12)
+3. Create a new script in your manager and paste the contents of `Netflix Auto Skip BTK V1.12`.
+4. Save and reload any Netflix tab (`http*://*.netflix.com/*`).
 
 The script will automatically run on pages matching Netflix’s domain pattern.
 
