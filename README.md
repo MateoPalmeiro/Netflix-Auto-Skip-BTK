@@ -44,7 +44,7 @@ setInterval(() => {
 
 1. **Selectors array**: Each CSS selector targets a specific Netflix UI element (skip intro, skip recap, advance episode).
 2. **Polling interval**: 300 ms strikes a balance between responsiveness and CPU usage.
-3. **Element detection**: `offsetParent !== null` ensures the element is rendered before clicking—oopsie woopsie from V1.0 that I fixed later on.
+3. **Element detection**: `offsetParent !== null` ensures the element is rendered before clicking — oopsie woopsie from V1.0 that I fixed later on.
 
 > **Note:** Netflix frequently updates its front‑end. If the script stops working, inspect the new `data-uia` attributes or class names and update the `selectors` array accordingly. Fork, branch, submit a pull request, or wait five minutes for me to update it — I’ll probably update it before you even notice Netflix made some crappy, senseless DOM changes.
 
