@@ -10,7 +10,7 @@ This UserScript runs silently in the background, auto‑clicking Netflix’s ski
 
 If you’ve ever banged out a multi‑hour binge session, you know the drill:
 
-* **Blocky intros** that stretch five, ten, twenty seconds or more. They’re usually cool—but not when you’re two hours into a marathon and caught up in a top‑tier tense moment.
+* **Blocky intros** that stretch five, ten, twenty seconds or more. They’re usually cool — but not when you’re two hours into a marathon and caught up in a top‑tier tense moment.
 * **“Previously on…” recaps** that spoil nothing but still waste time. I swear I hate ’em. I can understand them for occasional viewers who forget what happened, but if you’re here, you’re not one of ’em.
 * **End credits** that feel endless — let’s be real, no one cares about the cast list when the main character just got kidnapped and you need to know what happens next.
 
