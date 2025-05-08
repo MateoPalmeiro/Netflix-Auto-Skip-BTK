@@ -20,7 +20,7 @@ Also worth mentioning when you’re eating with greasy hands and don’t want to
 
 ## How It Works
 
-A short polling loop (every 300 ms—change it as you want) scans for known button selectors and simulates a click the moment a target element is rendered. You can’t even see it on screen because the script triggers it before it visually loads—but it **is** there:
+A short polling loop (every 300 ms — change it as you want) scans for known button selectors and simulates a click the moment a target element is rendered. You can’t even see it on screen because the script triggers it before it visually loads — but it **is** there:
 
 ```js
 // Key selectors extracted from Netflix’s minified chaos
