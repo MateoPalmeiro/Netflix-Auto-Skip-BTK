@@ -9,6 +9,7 @@
 // @updateURL    https://raw.githubusercontent.com/MateoPalmeiro/Netflix-Auto-Skip-BTK/main/Netflix%20Auto%20Skip%20BTK%20V1.12.user.js
 // @downloadURL  https://raw.githubusercontent.com/MateoPalmeiro/Netflix-Auto-Skip-BTK/main/Netflix%20Auto%20Skip%20BTK%20V1.12.user.js
 // @run-at       document-idle
+// @license      All Rights Reserved
 // ==/UserScript==
 
 (function() {
