@@ -1,10 +1,14 @@
 // ==UserScript==
 // @name         Netflix Auto Skip BTK V1.12
 // @namespace    https://github.com/MateoPalmeiro/Netflix-Auto-Skip-BTK
+// @icon         https://raw.githubusercontent.com/MateoPalmeiro/Netflix-Auto-Skip-BTK/main/FlixIcon.png
 // @version      1.12
 // @description  Auto-skip Netflix recaps, intros, credits, and auto-advance to next episode.
 // @match        http*://*.netflix.com/*
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/MateoPalmeiro/Netflix-Auto-Skip-BTK/main/Netflix%20Auto%20Skip%20BTK%20V1.12.user.js
+// @downloadURL  https://raw.githubusercontent.com/MateoPalmeiro/Netflix-Auto-Skip-BTK/main/Netflix%20Auto%20Skip%20BTK%20V1.12.user.js
+// @run-at       document-idle
 // ==/UserScript==
 
 (function() {
