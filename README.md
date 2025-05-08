@@ -12,7 +12,7 @@ If you’ve ever banged out a multi‑hour binge session, you know the drill:
 
 * **Blocky intros** that stretch five, ten, twenty seconds or more. They’re usually cool—but not when you’re two hours into a marathon and caught up in a top‑tier tense moment.
 * **“Previously on…” recaps** that spoil nothing but still waste time. I swear I hate ’em. I can understand them for occasional viewers who forget what happened, but if you’re here, you’re not one of ’em.
-* **End credits** that feel endless—let’s be real, no one cares about the cast list when the main character just got kidnapped and you need to know what happens next.
+* **End credits** that feel endless — let’s be real, no one cares about the cast list when the main character just got kidnapped and you need to know what happens next.
 
 Dexter’s gritty world deserves your full attention, not button‑mashing. And Netflix’s React‑driven markup changes so often that most scripts break after a minor UI tweak. This one is designed for easy selector maintenance and minimal CPU overhead. Seriously, go watch Dexter if you haven’t yet.
 
