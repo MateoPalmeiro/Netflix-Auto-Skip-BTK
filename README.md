@@ -1,6 +1,6 @@
 # Netflix Auto Skip BTK V1.12
 
-**Netflix Auto Skip BTK** was born out of pure frustration—skipping the same intros, recaps, and credit rolls on repeat for every single episode of whatever you’re watching. I actually got the idea while watching Dexter and its never‑ending intros, recaps, and credits; it got me thinking, “There has to be a faster way to get back into the action.” And being the masochistic programmer I am — who’d rather tinker than get paid or build something with actual commercial use — I embarked on this unhinged quest to automate the whole ordeal.
+**Netflix Auto Skip BTK** was born out of pure frustration — skipping the same intros, recaps, and credit rolls on repeat for every single episode of whatever you’re watching. I actually got the idea while watching Dexter and its never‑ending intros, recaps, and credits; it got me thinking, “There has to be a faster way to get back into the action.” And being the masochistic programmer I am — who’d rather tinker than get paid or build something with actual commercial use — I embarked on this unhinged quest to automate the whole ordeal.
 
 ## Overview
 
@@ -16,7 +16,7 @@ If you’ve ever banged out a multi‑hour binge session, you know the drill:
 
 Dexter’s gritty world deserves your full attention, not button‑mashing. And Netflix’s React‑driven markup changes so often that most scripts break after a minor UI tweak. This one is designed for easy selector maintenance and minimal CPU overhead. Seriously, go watch Dexter if you haven’t yet.
 
-Also worth mentioning when you’re eating with greasy hands and don’t want to stain your custom keyboard or your G502 mouse, or when your PC/laptop is hooked up to a TV and you’re lounging on the sofa—you don’t want to crawl across the room to hit “Next episode.” In both cases, I had to choke down all this skippable crap.
+Also worth mentioning when you’re eating with greasy hands and don’t want to stain your custom keyboard or your G502 mouse, or when your PC/laptop is hooked up to a TV and you’re lounging on the sofa — you don’t want to crawl across the room to hit “Next episode.” In both cases, I had to choke down all this skippable crap.
 
 ## How It Works
 
@@ -46,7 +46,7 @@ setInterval(() => {
 2. **Polling interval**: 300 ms strikes a balance between responsiveness and CPU usage.
 3. **Element detection**: `offsetParent !== null` ensures the element is rendered before clicking—oopsie woopsie from V1.0 that I fixed later on.
 
-> **Note:** Netflix frequently updates its front‑end. If the script stops working, inspect the new `data-uia` attributes or class names and update the `selectors` array accordingly. Fork, branch, submit a pull request, or wait five minutes for me to update it (I’ll probably update it before you even notice Netflix made some crappy, senseless DOM changes. Just update the script.).
+> **Note:** Netflix frequently updates its front‑end. If the script stops working, inspect the new `data-uia` attributes or class names and update the `selectors` array accordingly. Fork, branch, submit a pull request, or wait five minutes for me to update it — I’ll probably update it before you even notice Netflix made some crappy, senseless DOM changes.
 
 ## Installation
 
